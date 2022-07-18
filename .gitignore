@@ -1,0 +1,6 @@
+#Ignorar arquivos binários
+*.o
+
+#Ignorar arquivos executaveis
+*.exe
+
