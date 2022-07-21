@@ -11,20 +11,35 @@
 //     end;
 // end.
 
-Program somainfinita;
+// Program somainfinita;
 
-var a1, b1 : integer;
+// var a1, b1 : integer;
+
+// begin
+
+//  read(a1);
+//  read(b1);
+
+//  while((a1 <> 0) or (b1 <> 0))do
+//    begin
+//     writeln(a1+b1);
+//     read(a1);
+//     read(b1);
+//     end;
+// end.
+
+Program somawithincrimento;
+
+var a, b, cont : integer;
 
 begin
-
- read(a1);
- read(b1);
-
- while((a1 <> 0) or (b1 <> 0))do
-   begin
-    writeln(a1+b1);
-    read(a1);
-    read(b1);
+  cont := 1;
+while( cont <= 3)do
+    begin
+      read (a);
+      read (b);
+      writeln (a+b);
+      cont := cont + 1;
     end;
 end.
 
