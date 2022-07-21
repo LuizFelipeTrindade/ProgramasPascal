@@ -11,21 +11,20 @@
 //     end;
 // end.
 
-program soma2variasvezes_v2;
+Program somainfinita;
 
-
-var a, b: integer;
-
+var a1, b1 : integer;
 
 begin
-read (a) ;
 
-read (b) ;
+ read(a1);
+ read(b1);
 
-while (a <> 0) or (b <> 0) do
-    begin
-        writeln (a+b) ;
-        read (a) ;
-        read (b) ;
+ while((a1 <> 0) or (b1 <> 0))do
+   begin
+    writeln(a1+b1);
+    read(a1);
+    read(b1);
     end;
 end.
+
