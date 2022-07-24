@@ -8,10 +8,13 @@ procedure perfil (nome:string ; idade:integer ; peso:real) ;
  end ;
 var n : string ;i : integer ;p : real;
 begin
-    n := 'Blaise Pascal ';
-    i := 39;
-    p := 70.5;
-    perfil (n,i,p);
+    write('Your Name:');
+    read (n);
+    write('Your age: ');
+    read (i);
+    write('Your peso: ');
+    read (p);
+
 end.
 
 //Programa princpal depois 
@@ -21,3 +24,8 @@ end.
 //    read (i);
 //   write('Your peso: ');
 //    read (p);
+
+// n := 'Blaise Pascal ';
+//    i := 39;
+//    p := 70.5;
+//   perfil (n,i,p);
