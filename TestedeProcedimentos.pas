@@ -14,7 +14,8 @@ begin
     read (i);
     write('Your peso: ');
     read (p);
-
+    Writeln ('Media dos numeros'); 
+    write(( i + p) / 3);
 end.
 
 //Programa princpal depois 
