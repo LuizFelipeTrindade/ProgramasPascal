@@ -15,8 +15,7 @@ begin
     writeln(number);
 end.
 
-
-             // Meu código//
+// Meu código//
  //write ('Digite um numero inteiro:');
  //read (n);
  //writeln ('Number dupliced: ', n * 2);
