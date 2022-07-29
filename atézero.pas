@@ -13,5 +13,7 @@ end;
 var number : integer;
 
 begin
+
 conta_ate_zero(number);
+
 end.
