@@ -1,23 +1,27 @@
 program tipoEstruturado;
 
-type
+type vetor10int = array [ 1..10 ] of integer;
 
-vetor10int = array [ 1..10 ] of integer ;
-    procedure exibeVetor( v : vetor10int ) ;
-var i : integer;
+//Inicio do vetor
+procedure exibeVetor(v : vetor10int);
+    var i : integer; //Cabeçalho do vetor
 begin
-    writeln ;
     writeln('Vetor digitado:');
-for i := 1 to 10 do
+    for i := 1 to 10 do
 writeln( v [ i ] ) ;
-end ;
+end; //FINAL do vetor
+
 var i : integer ;
 vetor : vetor10int ;
+
 begin
-for i := 1 to 10 do
-begin
-writeln( 'Digite um valor para a posicao ' , i , ':') ;
-readln (vetor [ i ] ) ;
-end ;
-exibeVetor( vetor );
+    for i := 1 to 10 do
+    begin //Início da repetição
+
+        write('Digite um valor para a posicao ' , i , ':') ;
+        readln(vetor[i]);
+
+    end;//Fim da repetição
+     
+     exibeVetor(vetor); //Chamada do procedimento no programa principal
 end.
