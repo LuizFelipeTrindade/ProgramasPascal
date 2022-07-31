@@ -18,7 +18,7 @@ begin
     for i := 1 to 10 do
     begin //Início da repetição
 
-        write('Digite um valor para a posicao ' , i , ':') ;
+        write('Digite um valor para a posicao ' , i , ': ') ;
         readln(vetor[i]);
 
     end;//Fim da repetição
