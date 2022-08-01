@@ -1,17 +1,12 @@
 Program Primitivos;
 
-Type Numeros : [1...10]; 
-Type vogais: [A...U];
+Type Numeros = array [1...10] of integer; 
 
-var number : Numberos;
-var vogal : vogais;
+var number : Numeros;
 
 begin
 
 write ('Digite um number: ');
 read (number);
-
-write ('Digite uma vogal: ');
-readln(vogais);
 
 end.
