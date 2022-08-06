@@ -1,12 +1,15 @@
 Program Primitivos;
 
-Type Numeros = array [1...10] of integer; 
+Type sport = (Futebol, Basquete, volei);
 
-var number : Numeros;
+var esporte1, esporte2 : sport;
 
 begin
 
-write ('Digite um number: ');
-read (number);
+esporte1 := Futebol;
+esporte2 := Basquete;
+
+if (esporte1 = Futebol) and (esporte2 = Basquete) then
+  writeln ('The first is soccer and the second is Basketball');
 
 end.
