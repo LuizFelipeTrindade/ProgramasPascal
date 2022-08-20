@@ -4,3 +4,10 @@
 #Ignorar arquivos executaveis
 *.exe
 
+#Ignorar arquivos estranhos
+
+*.un~
+
+*.pas~
+
+
